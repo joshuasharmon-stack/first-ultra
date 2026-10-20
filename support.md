@@ -16,6 +16,8 @@ Email **Papaspudsllc@gmail.com** with any question, problem or idea. Please incl
 
 **The watch app says it needs the full version.** Buy or restore on the iPhone, then open the iPhone app once so the watch gets the update.
 
+**I'm a bigger runner. Is this for me?** Yes, and it's built in, not an afterthought. Turn on **Extra joint protection** in setup (Setup → Your running to change it later). It's recommended above about 220 lb (100 kg), or with past shin, Achilles, foot or knee trouble. The plan then starts with longer walk breaks, increases each week by about 6% instead of 10%, adds a lighter week every third week, peaks a little lower, and, with four or more run days, swaps one run a week for low-impact cardio such as a bike or elliptical. Your joints get the time to adapt that your heart and lungs don't need. Setup → Running guide → "Running as a bigger athlete" covers shoes, surfaces and pacing.
+
 **I missed a week.** On Today the app offers to repeat the week, push the plan back or rebuild from today, keeping your race date. You can also do this any time from Adjust on This week, and undo it in Setup → Plan adjustments.
 
 **I don't lift.** Setup → Weekly schedule → turn off "Include strength sessions". The plan becomes running only.
