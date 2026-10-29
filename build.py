@@ -31,7 +31,7 @@ def md2html(src):
     if inlist: out.append('</ul>')
     return '\n'.join(out)
 
-NAV = [('index.html','Home'),('support.html','Support'),('privacy.html','Privacy')]
+NAV = [('plan.html','Free plan'),('support.html','Support'),('privacy.html','Privacy')]
 
 def page(path, title, desc, body, wide=False):
     nav=''.join(f'<a href="{h}"{" aria-current=page" if h==path else ""}>{t}</a>' for h,t in NAV)
@@ -57,7 +57,7 @@ def page(path, title, desc, body, wide=False):
 {body}
 </main>
 <footer class="foot"><div class="wrap">
-<p><a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a> · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
+<p><a href="plan.html">Free training plan</a> · <a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a> · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
 <p>First Ultra is a training planner, not medical advice. Check with a doctor before starting, and stop if something hurts.</p>
 <p>© 2026 PapaSpuds LLC. Apple, Apple Watch and iPhone are trademarks of Apple Inc.</p>
 </div></footer>
@@ -70,6 +70,9 @@ pages = [
     ('index.html', 'First Ultra: zero to your first ultramarathon',
      'Run/walk training for your first 50K, 50 miles, 100K or 100 miles, with a gentler plan for bigger runners. iPhone and Apple Watch. Pay once, no subscription.',
      fill(open('_home.html').read()), True),
+    ('plan.html', 'Free ultramarathon training plan for beginners: 50K to 100 miles | First Ultra',
+     'Build a free run/walk training plan for your first 50K, 50 miles, 100K or 100 miles, starting from no running. Week by week, with a gentler option for bigger runners.',
+     fill(open('_plan.html').read()), True),
     ('support.html', 'First Ultra: Support',
      'Help and contact for First Ultra, the run/walk ultramarathon training app for iPhone and Apple Watch.',
      md2html(open('support.md').read()), False),
