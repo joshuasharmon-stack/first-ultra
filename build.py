@@ -2,8 +2,8 @@ import re, html
 
 SITE = 'https://joshuasharmon-stack.github.io/first-ultra/'
 APP_ID = '6824324954'
-# Swap for the App Store Connect campaign link once it exists.
-STORE = f'https://apps.apple.com/us/app/first-ultra/id{APP_ID}'
+# App Store Connect campaign link, so installs from the site show up under Campaigns.
+STORE = f'https://apps.apple.com/app/apple-store/id{APP_ID}?pt=129112491&amp;ct=Website&amp;mt=8'
 # Apple's official badge, saved from Apple's Marketing Resources, replaces the stand-in button.
 import os
 BADGE_FILE = 'assets/app-store-badge.svg'
